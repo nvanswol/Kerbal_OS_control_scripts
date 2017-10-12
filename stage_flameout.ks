@@ -1,0 +1,8 @@
+LIST ENGINES IN ENGINELIST.
+FOR ENG IN ENGINELIST {
+    IF ENG:FLAMEOUT {
+        stage.
+       WAIT 0.75.
+       RUNPATHONCE(FIRE_SHORT).
+   }
+}.
